@@ -34,8 +34,6 @@ pub mod run_return {
     pub use winit::platform::run_return::*;
 }
 
-pub use winit::platform::modifier_supplement;
-
 use std::os::raw;
 
 /// Platform-specific extensions for OpenGL [`Context`]s.
